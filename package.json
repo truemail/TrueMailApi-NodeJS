@@ -1,0 +1,42 @@
+{
+  "name": "truemail-io",
+  "version": "1.0.0",
+  "description": "An API wrapper for the TrueMail API",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "main": "src/TrueMail.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/truemail/TrueMailApi-NodeJS"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint ./src/*",
+    "lint:fix": "./node_modules/.bin/eslint ./src/* --fix"
+  },
+  "keywords": [
+    "email",
+    "email verification",
+    "email validation",
+    "email cleaning",
+    "verification",
+    "validation",
+    "cleaning"
+  ],
+  "author": "TrueMail <support@truemail.io> (https://truemail.io)",
+  "contributors": [
+    "Vladislav Rostovcev <rostovtsevladislav@gmail.com>"
+  ],
+  "homepage": "https://truemail.io",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.10.0",
+    "nock": "^10.0.4"
+  },
+  "dependencies": {
+    "lodash.merge": "^4.6.1"
+  }
+}
