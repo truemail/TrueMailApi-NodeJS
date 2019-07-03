@@ -1,6 +1,6 @@
 const TrueMail = require('../src/TrueMail.js');
 
-// Initialize NeverBounce client
+// Initialize TrueMail client
 const client = new TrueMail(require('../.env'));
 
 const query = [];

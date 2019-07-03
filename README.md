@@ -1,7 +1,7 @@
 <p align="center"><img src="https://truemail.io/assets/img/logo/350x70.png"></p>
 
 </p>
-
+<br>
 This is the official TrueMail API NodeJS wrapper. It provides helpful methods to quickly implement our API in your NodeJS applications.
 
 **This package is not suitable for use in the browser! Only use it in server side applications!**

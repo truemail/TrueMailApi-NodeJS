@@ -1,5 +1,6 @@
 const TrueMail = require('../src/TrueMail.js');
 
+// Initialize TrueMail client
 const client = new TrueMail(require('../.env'));
 
 // Verify an email
