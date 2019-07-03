@@ -22,7 +22,6 @@ class Single extends HttpsClient {
                 timeout: timeout
             }).then(
                 (response) => {
-                    console.log(response)
                     if (response.status === 'email_in_queue') {
                         setTimeout(() => {
                             this.status(response.email_id, address_info, interval * 2).then(
